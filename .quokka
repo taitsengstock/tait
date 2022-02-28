@@ -1,0 +1,18 @@
+{
+  "babel": {
+    "presets": ["babel-preset-gatsby"],
+		"env": {
+			"params": {
+				"env": "NODE_ENV=dev"
+			}
+		}
+  },
+	"plugins": ["alias-quokka-plugin"],
+	"alias": {
+		"~components": "src/components",
+		"~styles": "src/styles",
+		"~assets": "src/assets",			
+		"~utils": "src/utils",			
+		"~context": "src/context"
+	}
+}

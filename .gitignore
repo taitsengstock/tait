@@ -1,0 +1,9 @@
+.netlify
+node_modules/
+.cache/
+.env
+public
+.DS_Store
+.DS_Store?
+/functions
+/netlify

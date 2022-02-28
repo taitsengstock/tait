@@ -1,0 +1,42 @@
+{
+  "name": "composite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Jack Fowler <mail@jackfowler.work>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "sgd": "sanity graphql deploy --no-playground --force",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@sanity/base": "^2.27.1",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.27.0",
+    "@sanity/dashboard": "^2.27.1",
+    "@sanity/default-layout": "^2.27.1",
+    "@sanity/default-login": "^2.27.0",
+    "@sanity/desk-tool": "^2.27.1",
+    "@sanity/image-url": "^1.0.1",
+    "@sanity/vision": "^2.27.1",
+    "netlify": "^8.0.0",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "react-icons": "^4.2.0",
+    "react-json-view": "^1.21.3",
+    "sanity-plugin-dashboard-widget-document-list": "^0.0.13",
+    "sanity-plugin-dashboard-widget-netlify": "^1.1.0",
+    "sanity-plugin-goth-vimeo-input": "^1.0.1",
+    "sanity-plugin-note-field": "^1.1.1",
+    "sanity-plugin-social-preview": "^0.1.5",
+    "sanity-plugin-tabs": "^2.0.1",
+    "styled-components": "^5.2.0"
+  }
+}

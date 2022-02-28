@@ -1,0 +1,35 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "prettier.useTabs": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+	"restoreTerminals.runOnStartup": true,   
+  "restoreTerminals.terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "sanity",
+          "commands": [
+            "cd studio",
+            "sanity start"
+          ]
+        }
+      ]
+    },
+		{
+      "splitTerminals": [
+        {
+          "name": "gatsby",
+          "commands": [
+            "yarn start"
+          ]
+        }
+      ]
+    }
+  ]
+}
